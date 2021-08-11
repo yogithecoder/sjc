@@ -1,0 +1,50 @@
+.cardcol{
+  background-color: #002d75;
+  color : #fff;
+}
+.vcol{
+  background-color: #002d75;
+  color: #fdb513;
+}
+.butcol{
+  color : #fff;
+  background-color: #fdb513;
+  font-family: 'Roboto', sans-serif;
+}
+.headtitle{
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  color: #fff;
+}
+hr.nahr{
+  border-top: 4px solid #fdb513;
+  margin-top: 0px;
+  margin-bottom: -20px;
+}
+.hding{
+  font-size: 20px;
+
+}
+.navbar .dropdown-menu a:not(.active){
+  color:#fff;
+}
+.robfont{
+  font-family: 'Roboto', sans-serif;
+}
+.zoom {
+  padding-right:50px; 
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+  z-index: 300;
+}
+
+.articlehead {
+  text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
