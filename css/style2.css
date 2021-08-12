@@ -47,4 +47,13 @@ hr.nahr{
   text-align: center;
   margin-bottom: 50px;
   text-decoration: underline;
+  color: #002d75;
+}
+.img-thumbnail{
+  padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #002d75;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
