@@ -1,3 +1,6 @@
+.navbar .yamm-content h3{
+  border-bottom:solid 2px #fdb513;
+}
 .cardcol{
   background-color: #002d75;
   color : #fff;
@@ -56,4 +59,15 @@ hr.nahr{
     border-radius: .25rem;
     max-width: 100%;
     height: auto;
+}
+.img-teacher{
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+}
+.img-trustee{
+  width: 150px;
+  height: 190px;
+  object-fit: cover;
+  
 }
