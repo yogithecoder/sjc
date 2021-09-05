@@ -21,7 +21,10 @@
 <link href="css/style.css" rel="stylesheet">
 <link href="css/style2.css" rel="stylesheet">
 <script type="text/javascript" src="js/rotate.js"></script>
-<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
 <style>
 </style>
 </head>
@@ -236,7 +239,6 @@
 			</div> 
             <br>
             <div class="row">
-    
                 <a class = "col fcol" data-fancybox="gallery" href="Gallery/Bank Visit.jpg">
                 <img class="rounded  img-gal " src="Gallery/Bank Visit.jpg" >
                 </a>
@@ -414,8 +416,25 @@
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
 <!-- fancy -->
-<script type="module">
-    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<!-- fancybox thumb setting -->
+<script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+    Thumbs: {
+            autoStart:false
+        },
+  Toolbar: {
+    display: [
+      { id: "prev", position: "center" },
+      { id: "counter", position: "center" },
+      { id: "next", position: "center" },
+      "zoom",
+      "slideshow",
+      "fullscreen",
+      "close"
+    ],
+  },
+});
+</script>
 </body>
 </html>
